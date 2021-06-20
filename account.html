@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700;900&family=Oswald&family=Roboto:wght@700&family=Teko&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Login / Sign-up</title>
+</head>
+
+<body>
+    <header>
+        <h1 style="font-size: 100px; color: #522546;">Climate Change</h1>
+        <form>
+            <nav class="header_navbar" id="menu">
+                <button formaction="index.html"><span class="material-icons">home
+                    </span></a> <span>Home</span></button>
+                <button formaction="about.html"><span class="material-icons">info
+                    </span></a><span>About</span></button>
+                <button formaction="news.html"><span class="material-icons">feed
+                    </span></a><span>News</span></button>
+                <button formaction="target.html"><span class="material-icons">track_changes
+                    </span><span>Target</span></button>
+                <button formaction="account.html"><span class="material-icons">account_circle
+                    </span><span>Account</span></button>
+            </nav>
+        </form>
+    </header>
+    <main class="account">
+        <div id="leftbox">
+            <form action="" id="cc">
+                <h3 id="mm"> Sign Up <span class="material-icons">
+                        person_add
+                    </span></h3>
+                <div style="margin: 5px;">
+                    <span class="material-icons">
+                        badge
+                    </span>
+                    <input type="text" name="name" autofocus placeholder="Full Name" required>
+                </div>
+                <div style="margin: 5px;">
+                    <span class="material-icons">
+                        email
+                    </span>
+                    <input type="text" name="email" autofocus placeholder="Email-Id" required>
+                </div>
+                <div style="margin: 5px;">
+                    <span class="material-icons">
+                        date_range
+                    </span>
+                    <input type="date" placeholder="Date Of Birth" autofocus name="dob" required>
+                </div>
+                <div style="margin: 5px;">
+                    <span class="material-icons">
+                        password
+                    </span>
+                    <input type="password" autofocus placeholder="Password" name="pass" required>
+                </div>
+                <button id="submitButton"><span class="material-icons">
+                        verified
+                    </span> Submit </button><br>
+                <button id="submitButton"> <span class="material-icons">
+                        person
+                    </span>Sign Up With Google</button><br>
+                <button id="submitButton"><span class="material-icons">
+                        facebook
+                    </span>Sign Up With Facebook</button>
+            </form>
+        </div>
+        <div id="rightbox">
+            <form action="" id="cc">
+                <h3 id="mm">Sign In <span class="material-icons">
+                        people
+                    </span></h3>
+                </h3>
+                <div style="margin: 5px;">
+                    <span class="material-icons">
+                        email
+                    </span>
+                    <input type="text" name="email" autofocus placeholder="Email-Id" required>
+                </div>
+                <div style="margin: 5px;">
+                    <span class="material-icons">
+                        password
+                    </span>
+                    <input type="password" autofocus placeholder="Password" name="pass" required>
+                </div>
+                <button id="submitButton"><span class="material-icons">
+                        fact_check
+                    </span> Submit </button><br>
+                <button id="submitButton"> <span class="material-icons">
+                        person
+                    </span>Sign In With Google</button><br>
+                <button id="submitButton"><span class="material-icons">
+                        facebook
+                    </span>Sign In With Facebook</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <form>
+            <span>
+                <span class="material-icons">copyright
+                </span><span>All rights Reserved</span></span>
+            <button formaction="https://www.linkedin.com/in/prateek-thakur/"><span class="material-icons">person
+                </span><span>Linkedin</span></button>
+            <button formaction="https://www.facebook.com/prateek.thakur29"><span class="material-icons">facebook
+                </span><span>facebook</span></button>
+            <button formaction="https://www.instagram.com/prateek.thakur_/"><span class="material-icons">switch_account
+                </span> <span>Instagram</span></button>
+            <button formaction="https://twitter.com/Prateekthakur_"><span class="material-icons">people_alt
+                </span> <span>Twitter</span></button>
+
+        </form>
+    </footer>
+</body>
+
+</html>
